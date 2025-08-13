@@ -4,8 +4,8 @@
 
 ## Installation
 ```bash
-git clone ssh://git.amazon.com/pkg/ErgoNetPredicter
-cd ErgoNetPredicter
+git clone https://github.com/gyz95/ergonet.git
+cd ergonet
 pip install -e.
 ```
 
