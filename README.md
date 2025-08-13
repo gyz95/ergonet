@@ -136,7 +136,7 @@ The .run function always returns a dictionary containing the following critical 
 - Theta: Predicted 3D joint rotations (Num_People x 22 x 3) - SMPLX Joints 
 
 ### Skeletons and Joint Orders:
-Openpose 25/ COCO 25 Joints:
+OpenPose 25/ COCO 25 Joints:
 
 0 - Nose, 1 - Neck, 2 - Right shoulder, 3 - Right elbow, 4 - Right wrist, 5 - Left shoulder, 6 - Left elbow, 7 - Left wrist, 8 - Mid hip, 9 - Right hip, 10 - Right knee, 11 - Right ankle, 12 - Left hip, 13 - Left knee, 14 - Left ankle, 15 - Right eye, 16 - Left eye, 17 - Right ear, 18 - Left ear, 19 - Left big-toe, 20 - Left small-toe, 21 - Left heel, 22 - Right big-toe, 23 - Right small-toe, 24 - Right heel
 
