@@ -1,6 +1,6 @@
 # ErgoNet: Predicting Human Body Pose and Shape from Monocular Images for Ergonomics Assessments
+![demo](https://github.com/user-attachments/assets/af6cfb73-d43d-48f8-80fc-7abe6934874c)
 
-<img width="2844" height="1038" alt="demo_image" src="https://github.com/user-attachments/assets/e0ff7296-eadf-4e5e-9813-cb801dfd8f32" />
 
 ## Installation
 ```bash
