@@ -32,7 +32,7 @@ pip install -e.
 ### - ErgoNetSingleProcessor: 
 **_from ergonet import ErgoNetSingleProcessor_**
 
-It processes a single image and predicts the poses of each person in the image. To use the single processor, simply provide an image read by OpenCV, specify the computing device (CPU or CUDA or mps), and set the gender (neutral, male, or female). Camera intrinsic parameters and distortion coefficients are optional and can be set to None. However, they are required if you want the predictions to be in real-world metric scale—that is, to obtain the actual 3D positions of each body joint.
+It processes a single image and predicts the poses of each person in the image. To use the single processor, simply provide an image read by OpenCV, specify the computing device (cpu or cuda or mps), and set the gender (neutral, male, or female). Camera intrinsic parameters and distortion coefficients are optional and can be set to None. However, they are required if you want the predictions to be in real-world metric scale—that is, to obtain the actual 3D positions of each body joint.
 
 Camera Intrinsics Parameters 
 
@@ -51,7 +51,7 @@ Camera Distortion Coefficients
 ### - ErgoNetBatchProcessor:
 **_from ergonet import ErgoNetBatchProcessor_**
 
-It processes multiple image and predicts the poses of each person in each image. To use the batch processor, simply provide a list of images read by OpenCV, specify the computing device (CPU or CUDA), and set the gender (neutral, male, or female). Note that the selected gender will be applied uniformly to all detected individuals across all images.
+It processes multiple image and predicts the poses of each person in each image. To use the batch processor, simply provide a list of images read by OpenCV, specify the computing device (cpu or cuda, or mps), and set the gender (neutral, male, or female). Note that the selected gender will be applied uniformly to all detected individuals across all images.
 
 ### - ErgoNetHelper:
 **_from ergonet import ErgoNetHelper_**
